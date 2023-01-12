@@ -18,12 +18,18 @@
     <ClCompile Include="Project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="myfunctions.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
     <ClCompile Include="winbgi2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="winbgi2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myfunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -31,5 +37,10 @@
     <Text Include="Game rules.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

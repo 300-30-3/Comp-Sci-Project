@@ -127,14 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="myfunctions.cpp" />
     <ClCompile Include="Project.cpp" />
     <ClCompile Include="winbgi2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="myfunctions.h" />
     <ClInclude Include="winbgi2.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Game rules.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
